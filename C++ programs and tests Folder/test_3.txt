@@ -1,0 +1,7 @@
+ADDI x9, x0, 1000
+ADDI x18, x0, 1004
+LW x10, 0(x9)
+LW x11, 0(x18)
+JAL x0, 8
+ADD x10, x0, x11
+FENCE

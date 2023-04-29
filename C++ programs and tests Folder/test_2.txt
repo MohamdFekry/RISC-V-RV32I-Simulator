@@ -1,0 +1,11 @@
+ADDI x11, x0, 1000
+ADDI x12, x0, 5
+ADDI x6, x0, 0
+BGE x6, x12, 8
+SLLI x7, x6, 2
+ADD x7, x11, x7
+LW x7, 0(x7)
+ADD x5, x5, x7
+ADDI x6, x6, 1
+JAL x0, l1
+FENCE

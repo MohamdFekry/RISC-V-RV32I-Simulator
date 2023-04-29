@@ -1,0 +1,9 @@
+ADDI x2, x0, 1
+ADDI x12, x0, 0
+ADDI x13, x0, 1
+ADDI x1, x0, 5
+SUB x1, x1, x2
+ADD x12, x12, x13
+ADDI x13, x13, 1
+BLT x0, x1, -12
+FENCE

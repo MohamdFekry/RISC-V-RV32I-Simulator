@@ -1,0 +1,6 @@
+ADDI x5, x0, 1	
+ADDI x6, x0, 2147
+LW x5, 0(x6)
+SUB x5, x0, x6
+SLL x6, x5, x6
+FENCE

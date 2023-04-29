@@ -1,0 +1,9 @@
+ADDI x18, x0, 3
+ADDI x19, x0, 3
+ADD x5, x0, x0
+ADDI x19, x19, -1
+ADD x5, x5, x18
+ADDI x19, x19, -1
+BGE x19, x0, 8
+ADD x18, x0, x5
+EBREAK

@@ -1,0 +1,3 @@
+int n = 4;
+int x = 2;
+int p = pow(2, 4);
